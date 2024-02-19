@@ -1,0 +1,127 @@
+{
+    "Equation_num_0_text_0": {
+        "score": 0,
+        "real": "\\genfrac{(}{)}{0.0pt}{}{n}{k}=\\frac{n!}{(n-k)!k!}=\\genfrac{(}{)}{0.0pt}{}{n}{n-k}\"\n",
+        "pred": "\\[\n\\binom{n}{k} = \\frac{n!}{(n-k)! \\cdot k!} = \\binom{n}{n-k}\n\\]"
+    },
+    "Equation_num_0_text_1": {
+        "score": 0,
+        "real": "\\genfrac{(}{)}{0.0pt}{}{n}{k}=\\frac{n!}{(n-k)!k!}=\\genfrac{(}{)}{0.0pt}{}{n}{n-k}\"\n",
+        "pred": "\\[\n\\binom{n}{k} = \\frac{n!}{(n-k)! \\cdot k!} = \\binom{n}{n-k}\n\\]"
+    },
+    "Equation_num_0_text_2": {
+        "score": 0,
+        "real": "\\genfrac{(}{)}{0.0pt}{}{n}{k}=\\frac{n!}{(n-k)!k!}=\\genfrac{(}{)}{0.0pt}{}{n}{n-k}\"\n",
+        "pred": "\\[\n\\binom{n}{k} = \\frac{n!}{(n-k)!k!}\n\\]\n\n\\[\n\\binom{n}{k} = \\binom{n}{n-k}\n\\]"
+    },
+    "Equation_num_1_text_0": {
+        "score": 0,
+        "real": "\\genfrac{(}{)}{0.0pt}{}{z+1}{k}=\\genfrac{(}{)}{0.0pt}{}{z}{k}+\\genfrac{(}{)}{0.0pt}{}{z}{k-1}\"\n",
+        "pred": "\\begin{equation}\n\\frac{z+1}{k} = \\frac{z}{k} + \\frac{z}{k-1}\n\\end{equation}"
+    },
+    "Equation_num_1_text_1": {
+        "score": 0,
+        "real": "\\genfrac{(}{)}{0.0pt}{}{z+1}{k}=\\genfrac{(}{)}{0.0pt}{}{z}{k}+\\genfrac{(}{)}{0.0pt}{}{z}{k-1}\"\n",
+        "pred": "\\frac{z+1}{k} = \\frac{z}{k} + \\frac{z}{k-1}"
+    },
+    "Equation_num_1_text_2": {
+        "score": 0,
+        "real": "\\genfrac{(}{)}{0.0pt}{}{z+1}{k}=\\genfrac{(}{)}{0.0pt}{}{z}{k}+\\genfrac{(}{)}{0.0pt}{}{z}{k-1}\"\n",
+        "pred": "\\frac{z+1}{k} = \\frac{z}{k} + \\frac{z}{k-1}"
+    },
+    "Equation_num_2_text_0": {
+        "score": 0,
+        "real": "\\sum^{m}_{k=0}\\genfrac{(}{)}{0.0pt}{}{z+k}{k}=\\genfrac{(}{)}{0.0pt}{}{z+m+1}{m}\"\n",
+        "pred": "\\sum_{k=0}^{m} \\frac{z+k}{k} = \\frac{z+m+1}{m}"
+    },
+    "Equation_num_2_text_1": {
+        "score": 0,
+        "real": "\\sum^{m}_{k=0}\\genfrac{(}{)}{0.0pt}{}{z+k}{k}=\\genfrac{(}{)}{0.0pt}{}{z+m+1}{m}\"\n",
+        "pred": "\\sum_{k=0}^{m} \\frac{z+k}{k} = \\frac{z+m+1}{m}"
+    },
+    "Equation_num_2_text_2": {
+        "score": 0,
+        "real": "\\sum^{m}_{k=0}\\genfrac{(}{)}{0.0pt}{}{z+k}{k}=\\genfrac{(}{)}{0.0pt}{}{z+m+1}{m}\"\n",
+        "pred": "\\sum_{k=0}^{m} \\frac{z + k}{k} = \\frac{z + m + 1}{m}"
+    },
+    "Equation_num_3_text_0": {
+        "score": 0,
+        "real": "a+(a+d)+(a+2d)+\\dots+(a+(n-1)d)=na+\\tfrac{1}{2}n(n-1)d=\\tfrac{1}{2}n(a+\\ell)\"\n",
+        "pred": "$$ a + (a+d) + (a+2d) + \\ldots + (a+(n-1)d) = na + \\frac{n(n-1)}{2}d = \\frac{n}{2}(a+l) $$"
+    },
+    "Equation_num_3_text_1": {
+        "score": 0,
+        "real": "a+(a+d)+(a+2d)+\\dots+(a+(n-1)d)=na+\\tfrac{1}{2}n(n-1)d=\\tfrac{1}{2}n(a+\\ell)\"\n",
+        "pred": "\\[ S = N \\times A + \\frac{N \\times (N-1) \\times D}{2} = \\frac{N \\times (A + L)}{2} \\]"
+    },
+    "Equation_num_3_text_2": {
+        "score": 0,
+        "real": "a+(a+d)+(a+2d)+\\dots+(a+(n-1)d)=na+\\tfrac{1}{2}n(n-1)d=\\tfrac{1}{2}n(a+\\ell)\"\n",
+        "pred": "\\[ S = nA + \\frac{1}{2}n(n-1)D = \\frac{1}{2}n(A+L) \\]"
+    },
+    "Equation_num_4_text_0": {
+        "score": 0,
+        "real": "a+ax+ax^{2}+\\dots+ax^{n-1}=\\frac{a(1-x^{n})}{1-x}\"\n",
+        "pred": "$$a + ax + ax^2 + \\cdots + ax^{n-1} = \\frac{a(1 - x^n)}{1 - x}$$"
+    },
+    "Equation_num_4_text_1": {
+        "score": 0,
+        "real": "a+ax+ax^{2}+\\dots+ax^{n-1}=\\frac{a(1-x^{n})}{1-x}\"\n",
+        "pred": "\\[\n\\sum_{i=0}^{n-1} A \\cdot x^i = \\frac{a(1-x^n)}{1-x}\n\\]"
+    },
+    "Equation_num_4_text_2": {
+        "score": 0,
+        "real": "a+ax+ax^{2}+\\dots+ax^{n-1}=\\frac{a(1-x^{n})}{1-x}\"\n",
+        "pred": "\\[\na + ax + ax^2 + \\cdots + ax^{n-1} = \\frac{a(1 - x^n)}{1 - x}\n\\]"
+    },
+    "Equation_num_5_text_0": {
+        "score": 0,
+        "real": "A_{j}=\\frac{f(\\alpha_{j})}{\\prod\\limits_{k\\not=j}(\\alpha_{j}-\\alpha_{k})}\"\n",
+        "pred": "\\[\na_j = \\frac{f(\\alpha_j)}{\\prod_{k\\neq j}(\\alpha_j-\\alpha_k)}\n\\]"
+    },
+    "Equation_num_5_text_1": {
+        "score": 0,
+        "real": "A_{j}=\\frac{f(\\alpha_{j})}{\\prod\\limits_{k\\not=j}(\\alpha_{j}-\\alpha_{k})}\"\n",
+        "pred": "\\[\na_{j} = \\frac{f(\\alpha_{j})}{\\prod\\limits_{k \\neq j} (\\alpha_{j} - \\alpha_{k})}\n\\]"
+    },
+    "Equation_num_5_text_2": {
+        "score": 0,
+        "real": "A_{j}=\\frac{f(\\alpha_{j})}{\\prod\\limits_{k\\not=j}(\\alpha_{j}-\\alpha_{k})}\"\n",
+        "pred": "\\begin{equation}\na_{j} = \\frac{f(\\alpha_{j})}{\\prod\\limits_{k \\neq j} (\\alpha_{j} - \\alpha_{k})}\n\\end{equation}"
+    },
+    "Equation_num_6_text_0": {
+        "score": 0,
+        "real": "B_{j}=\\frac{f^{(n-j)}(\\alpha_{1})}{(n-j)!}\"\n",
+        "pred": "$$b_j = \\frac{{f^{n-j}(\\alpha_1)}}{{(n-j)!}}$$"
+    },
+    "Equation_num_6_text_1": {
+        "score": 0,
+        "real": "B_{j}=\\frac{f^{(n-j)}(\\alpha_{1})}{(n-j)!}\"\n",
+        "pred": "$b_{j} = \\frac{f^{n-j} \\cdot \\alpha_{1}}{(n-j)!}$"
+    },
+    "Equation_num_6_text_2": {
+        "score": 0,
+        "real": "B_{j}=\\frac{f^{(n-j)}(\\alpha_{1})}{(n-j)!}\"\n",
+        "pred": "\\[\nb_j = \\frac{{f^{n-j}(\\alpha_1)}}{{(n-j)!}}\n\\]"
+    },
+    "Equation_num_7_text_0": {
+        "score": 0,
+        "real": "G=(a_{1}a_{2}\\cdots a_{n})^{1/n}\"\n",
+        "pred": "\\[ G = \\sqrt[n]{a_1 \\cdot a_2 \\cdot \\ldots \\cdot a_n} \\]"
+    },
+    "Equation_num_7_text_1": {
+        "score": 0,
+        "real": "G=(a_{1}a_{2}\\cdots a_{n})^{1/n}\"\n",
+        "pred": "\\[\nG = \\frac{1}{n} \\sum_{i=1}^{n} a_i\n\\]"
+    },
+    "Equation_num_7_text_2": {
+        "score": 0,
+        "real": "G=(a_{1}a_{2}\\cdots a_{n})^{1/n}\"\n",
+        "pred": "G = \\sqrt[n]{a_1 \\cdot a_2 \\cdots a_n}"
+    },
+    "Equation_num_8_text_0": {
+        "score": 0,
+        "real": "\\frac{1}{H}=\\frac{1}{n}\\left(\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\dots+\\frac{1}{a_{n}}\\right)\"\n",
+        "pred": "\\frac{1}{h} = \\frac{1}{n} \\left( \\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} \\right)"
+    }
+}

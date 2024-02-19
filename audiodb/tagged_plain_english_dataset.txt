@@ -1,0 +1,550 @@
+Equation_num_0_latex: "\genfrac{(}{)}{0.0pt}{}{n}{k}=\frac{n!}{(n-k)!k!}=\genfrac{(}{)}{0.0pt}{}{n}{n-k}"
+Equation_num_0_text_0: "The formula is n choose k, which is equal to n factorial divided by the product of (n minus k) factorial and k factorial. It is also equal to n choose (n minus k)."
+Equation_num_0_text_1: "We have the formula for n choose k, which can be calculated as n factorial divided by the product of (n minus k) factorial and k factorial. It is also equivalent to n choose (n minus k)."
+Equation_num_0_text_2: "Let's look at the formula for n choose k. It is n factorial divided by the product of (n minus k) factorial and k factorial. Alternatively, it can be expressed as n choose (n minus k)."
+
+Equation_num_1_latex: "\genfrac{(}{)}{0.0pt}{}{z+1}{k}=\genfrac{(}{)}{0.0pt}{}{z}{k}+\genfrac{(}{)}{0.0pt}{}{z}{k-1}"
+Equation_num_1_text_0: "The expression z plus one, divided by k, is equal to z divided by k, plus z divided by k minus one."
+Equation_num_1_text_1: "The fraction of z plus one over k equals the fraction of z over k plus the fraction of z over k minus one."
+Equation_num_1_text_2: "To find the value of z plus one divided by k, you add the value of z divided by k to the value of z divided by k minus one."
+
+Equation_num_2_latex: "\sum^{m}_{k=0}\genfrac{(}{)}{0.0pt}{}{z+k}{k}=\genfrac{(}{)}{0.0pt}{}{z+m+1}{m}"
+Equation_num_2_text_0: "The sum from k equals zero to m of z plus k divided by k is equal to z plus m plus one divided by m."
+Equation_num_2_text_1: "The sum of z plus k divided by k, where k ranges from zero to m, equals z plus m plus one divided by m."
+Equation_num_2_text_2: "The sum of z plus k divided by k, as k goes from zero to m, is equal to z plus m plus one divided by m."
+
+Equation_num_3_latex: "a+(a+d)+(a+2d)+\dots+(a+(n-1)d)=na+\tfrac{1}{2}n(n-1)d=\tfrac{1}{2}n(a+\ell)"
+Equation_num_3_text_0: "The sum of a, a plus d, a plus 2d, and so on up to a plus n minus 1 times d is equal to n times a plus half times n times n minus 1 times d, which is also equal to half times n times the sum of a and ell."
+Equation_num_3_text_1: "To find the sum of a series starting from a and increasing by d each time, we use the formula n times a plus half times n times n minus 1 times d. This is also equal to half times n times the sum of a and ell."
+Equation_num_3_text_2: "When adding up a series that begins with a and has a common difference of d, the sum can be calculated as n times a plus half times n times n minus 1 times d. Alternatively, it is equal to half times n times the sum of a and ell."
+
+Equation_num_4_latex: "a+ax+ax^{2}+\dots+ax^{n-1}=\frac{a(1-x^{n})}{1-x}"
+Equation_num_4_text_0: "a plus a times x plus a times x squared, and so on, up to a times x to the power of n minus one, equals a times one minus x to the power of n, all divided by one minus x."
+Equation_num_4_text_1: "The sum of a, a times x, a times x squared, and so on, up to a times x to the power of n minus one, is equal to a times one minus x to the power of n, divided by one minus x."
+Equation_num_4_text_2: "When you add up a, a times x, a times x squared, and so on, up to a times x to the power of n minus one, you get a times one minus x to the power of n, divided by one minus x."
+
+Equation_num_5_latex: "A_{j}=\frac{f(\alpha_{j})}{\prod\limits_{k\not=j}(\alpha_{j}-\alpha_{k})}"
+Equation_num_5_text_0: "A sub j equals f of alpha sub j divided by the product over k not equal to j of alpha sub j minus alpha sub k."
+Equation_num_5_text_1: "A j equals f of alpha j divided by the product over k not equal to j of alpha j minus alpha k."
+Equation_num_5_text_2: "A j equals f of alpha j divided by the product of alpha j minus alpha k, where k is not equal to j."
+
+Equation_num_6_latex: "B_{j}=\frac{f^{(n-j)}(\alpha_{1})}{(n-j)!}"
+Equation_num_6_text_0: "B sub j equals f to the power of n minus j, evaluated at alpha sub 1, divided by n minus j factorial."
+Equation_num_6_text_1: "B sub j equals f raised to the power of n minus j, at alpha sub 1, divided by the factorial of n minus j."
+Equation_num_6_text_2: "B sub j equals f raised to the power of n minus j, evaluated at alpha sub 1, divided by the factorial of n minus j."
+
+Equation_num_7_latex: "G=(a_{1}a_{2}\cdots a_{n})^{1/n}"
+Equation_num_7_text_0: "G equals the nth root of the product of a sub 1, a sub 2, and so on up to a sub n."
+Equation_num_7_text_1: "G is equal to the average of a sub 1, a sub 2, and so on up to a sub n."
+Equation_num_7_text_2: "G is the geometric mean of a sub 1, a sub 2, and so on up to a sub n."
+
+Equation_num_8_latex: "\frac{1}{H}=\frac{1}{n}\left(\frac{1}{a_{1}}+\frac{1}{a_{2}}+\dots+\frac{1}{a_{n}}\right)"
+Equation_num_8_text_0: "One over H equals one over n times the sum of one over a one, one over a two, and so on, up to one over a n."
+Equation_num_8_text_1: "The reciprocal of H is equal to the reciprocal of n multiplied by the sum of the reciprocals of a one, a two, and so on, up to a n."
+Equation_num_8_text_2: "To find H, take the inverse of n and multiply it by the sum of the inverses of a one, a two, and so on, up to a n."
+
+Equation_num_9_latex: "p_{1}+p_{2}+\dots+p_{n}=1"
+Equation_num_9_text_0: "The sum of p sub 1, p sub 2, and so on up to p sub n equals 1."
+Equation_num_9_text_1: "p sub 1 plus p sub 2 plus dot dot dot plus p sub n equals 1."
+Equation_num_9_text_2: "Add up p sub 1, p sub 2, and the rest of the p's until p sub n, and the total should be 1."
+
+Equation_num_10_latex: "M(r)=(p_{1}a_{1}^{r}+p_{2}a_{2}^{r}+\dots+p_{n}a_{n}^{r})^{1/r}"
+Equation_num_10_text_0: "M of r equals the sum of p one times a one raised to the power of r, plus p two times a two raised to the power of r, and so on, all raised to the power of one over r."
+Equation_num_10_text_1: "M of r is equal to the sum of each p value multiplied by its corresponding a value raised to the power of r, all of which is then raised to the power of one over r."
+Equation_num_10_text_2: "To calculate M of r, add up each p value multiplied by its corresponding a value raised to the power of r. Finally, take the whole sum and raise it to the power of one over r."
+
+Equation_num_11_latex: "M(r)=0"
+Equation_num_11_text_0: "M of r equals zero."
+Equation_num_11_text_1: "M of r is equal to zero."
+Equation_num_11_text_2: "M at r is zero."
+
+Equation_num_12_latex: "\lim_{r\to\infty}M(r)=\max(a_{1},a_{2},\dots,a_{n})"
+Equation_num_12_text_0: "The limit as r approaches infinity of M of r is equal to the maximum of a sub 1, a sub 2, dot dot dot, a sub n."
+Equation_num_12_text_1: "As r goes to infinity, M of r approaches the largest value among a sub 1, a sub 2, dot dot dot, a sub n."
+Equation_num_12_text_2: "When r tends to infinity, M of r reaches the highest value among a sub 1, a sub 2, dot dot dot, a sub n."
+
+Equation_num_13_latex: "\lim_{r\to-\infty}M(r)=\min(a_{1},a_{2},\dots,a_{n})"
+Equation_num_13_text_0: "The limit of M of r as r approaches negative infinity is equal to the minimum of a sub 1, a sub 2, dot dot dot, a sub n."
+Equation_num_13_text_1: "As r approaches negative infinity, M of r approaches the smallest value among a sub 1, a sub 2, dot dot dot, a sub n."
+Equation_num_13_text_2: "When r tends to negative infinity, M of r tends to the minimum value among a sub 1, a sub 2, dot dot dot, a sub n."
+
+Equation_num_14_latex: "\det[a_{jk}]=\begin{vmatrix}a_{11}&a_{12}"
+Equation_num_14_text_0: "Determinant of a matrix A is equal to the absolute value of the expression a one one times a one two."
+Equation_num_14_text_1: "The determinant of matrix A is given by the absolute value of a one one multiplied by a one two."
+Equation_num_14_text_2: "To find the determinant of matrix A, take the absolute value of a one one times a one two."
+
+Equation_num_15_latex: "a_{21}&a_{22}\end{vmatrix}=a_{11}a_{22}-a_{12}a_{21}"
+Equation_num_15_text_0: "The determinant of the matrix A is equal to a one one multiplied by a two two, minus a one two multiplied by a two one."
+Equation_num_15_text_1: "The determinant of matrix A equals a one one times a two two, minus a one two times a two one."
+Equation_num_15_text_2: "To find the determinant of matrix A, multiply a one one by a two two and subtract the product of a one two and a two one."
+
+Equation_num_16_latex: "\det[a_{jk}]=\begin{vmatrix}a_{11}&a_{12}&a_{13}"
+Equation_num_16_text_0: "Determinant of a matrix A is equal to the absolute value of the matrix formed by the elements a11, a12, and a13."
+Equation_num_16_text_1: "The determinant of matrix A is the absolute value of the matrix with elements a11, a12, and a13."
+Equation_num_16_text_2: "The determinant of A is the absolute value of the matrix containing a11, a12, and a13."
+
+Equation_num_17_latex: "a_{21}&a_{22}&a_{23}"
+Equation_num_17_text_0: "a sub twenty-one, a sub twenty-two, a sub twenty-three"
+Equation_num_17_text_1: "a twenty-one, a twenty-two, a twenty-three"
+Equation_num_17_text_2: "a two-one, a two-two, a two-three"
+
+Equation_num_18_latex: "a_{31}&a_{32}&a_{33}\end{vmatrix}=a_{11}\begin{vmatrix}a_{22}&a_{23}"
+Equation_num_18_text_0: "The determinant of the matrix with elements a sub 31, a sub 32, and a sub 33 is equal to a sub 11 times the determinant of the matrix with elements a sub 22 and a sub 23."
+Equation_num_18_text_1: "The value of the determinant for the matrix containing a sub 31, a sub 32, and a sub 33 is the product of a sub 11 and the determinant of the matrix containing a sub 22 and a sub 23."
+Equation_num_18_text_2: "To find the determinant of the matrix with a sub 31, a sub 32, and a sub 33, multiply a sub 11 by the determinant of the matrix with a sub 22 and a sub 23."
+
+Equation_num_19_latex: "a_{32}&a_{33}\end{vmatrix}-a_{12}\begin{vmatrix}a_{21}&a_{23}"
+Equation_num_19_text_0: "The determinant of the matrix formed by a sub 32 and a sub 33, minus the product of a sub 12 and the determinant of the matrix formed by a sub 21 and a sub 23."
+Equation_num_19_text_1: "The determinant of a sub 32 and a sub 33, minus a sub 12 times the determinant of a sub 21 and a sub 23."
+Equation_num_19_text_2: "The result of subtracting the product of a sub 12 and the determinant of a sub 21 and a sub 23 from the determinant of a sub 32 and a sub 33."
+
+Equation_num_20_latex: "a_{31}&a_{33}\end{vmatrix}+a_{13}\begin{vmatrix}a_{21}&a_{22}"
+Equation_num_20_text_0: "The determinant of a matrix equals a_{11} multiplied by the determinant of the submatrix formed by excluding the first row and first column, minus a_{12} multiplied by the determinant of the submatrix formed by excluding the first row and second column, plus a_{13} multiplied by the determinant of the submatrix formed by excluding the first row and third column."
+Equation_num_20_text_1: "To find the determinant of a matrix, you take a_{11} times the determinant of the submatrix without the first row and first column, subtract a_{12} times the determinant of the submatrix without the first row and second column, and add a_{13} times the determinant of the submatrix without the first row and third column."
+Equation_num_20_text_2: "The determinant of a matrix is calculated by multiplying a_{11} with the determinant of the submatrix obtained by removing the first row and first column. Then, subtract a_{12} times the determinant of the submatrix obtained by removing the first row and second column, and finally, add a_{13} times the determinant of the submatrix obtained by removing the first row and third column."
+
+Equation_num_21_latex: "A_{jk}=(-1)^{j+k}M_{jk}"
+Equation_num_21_text_0: "A sub j k equals negative one raised to the power of j plus k, times M sub j k."
+Equation_num_21_text_1: "A j k equals negative one to the power of j plus k, times M j k."
+Equation_num_21_text_2: "A j k equals negative one raised to the j plus k power, times M j k."
+
+Equation_num_22_latex: "\det[a_{jk}]=\sum^{n}_{\ell=1}a_{j\ell}A_{j\ell}"
+Equation_num_22_text_0: "Determinant of matrix A sub j k equals the sum from 1 to n of a sub j l times A sub j l."
+Equation_num_22_text_1: "The determinant of matrix A sub j k is the sum of a sub j l times A sub j l, where l ranges from 1 to n."
+Equation_num_22_text_2: "To find the determinant of matrix A sub j k, we add up the products of a sub j l and A sub j l, with l going from 1 to n."
+
+Equation_num_23_latex: "\det[a_{jk}]^{\mathrm{T}}=\det[a_{jk}]"
+Equation_num_23_text_0: "Determinant of the transpose of matrix A sub jk equals determinant of matrix A sub jk."
+Equation_num_23_text_1: "Transpose of the determinant of matrix A sub jk equals determinant of matrix A sub jk."
+Equation_num_23_text_2: "The determinant of the transpose of matrix A sub jk is equal to the determinant of matrix A sub jk."
+
+Equation_num_24_latex: "\det[a_{jk}]^{-1}=\frac{1}{\det[a_{jk}]}"
+Equation_num_24_text_0: "The inverse of the determinant of a matrix A sub jk is equal to one divided by the determinant of matrix A sub jk."
+Equation_num_24_text_1: "The reciprocal of the determinant of matrix A sub jk is equal to one over the determinant of matrix A sub jk."
+Equation_num_24_text_2: "To find the inverse of the determinant of matrix A sub jk, simply take the reciprocal of the determinant of matrix A sub jk."
+
+Equation_num_25_latex: "\det([a_{jk}][b_{jk}])=(\det[a_{jk}])(\det[b_{jk}])"
+Equation_num_25_text_0: "Determinant of the product of matrices A and B equals determinant of A times determinant of B."
+Equation_num_25_text_1: "The determinant of the matrix product AB is equal to the determinant of A multiplied by the determinant of B."
+Equation_num_25_text_2: "When multiplying matrices A and B, the determinant of their product is the product of their determinants."
+
+Equation_num_26_latex: "{\begin{vmatrix}a_{11}&a_{12}"
+Equation_num_26_text_0: "The absolute value of the determinant of the matrix with elements a sub one one and a sub one two."
+Equation_num_26_text_1: "The absolute value of the determinant of the matrix containing a one one and a one two."
+Equation_num_26_text_2: "The absolute value of the determinant of the matrix a one one and a one two."
+
+Equation_num_27_latex: "a_{21}&a_{22}\end{vmatrix}}^{2}\leq(a^{2}_{11}+a^{2}_{12})(a^{2}_{21}+a^{2}_{22})"
+Equation_num_27_text_0: "The absolute value of the determinant of matrix A, divided by 2, squared, is less than or equal to the sum of the squares of the elements in the first row of matrix A, multiplied by the sum of the squares of the elements in the second row of matrix A."
+Equation_num_27_text_1: "The determinant of matrix A, divided by 2, squared, is less than or equal to the sum of the squares of the elements in the first row of matrix A, multiplied by the sum of the squares of the elements in the second row of matrix A."
+Equation_num_27_text_2: "The determinant of matrix A, divided by 2, squared, is less than or equal to the sum of the squares of the elements in the first row of matrix A, times the sum of the squares of the elements in the second row of matrix A."
+
+Equation_num_28_latex: "\det[f_{k}(x_{j})]"
+Equation_num_28_text_0: "Determinant of f sub k of x sub j."
+Equation_num_28_text_1: "Determinant of f k of x j."
+Equation_num_28_text_2: "Determinant of f k of x j."
+
+Equation_num_29_latex: "\det[f(x_{j},y_{k})]"
+Equation_num_29_text_0: "Determinant of f of x sub j, y sub k."
+Equation_num_29_text_1: "Determinant of f of x j, y k."
+Equation_num_29_text_2: "Determinant of f of x j, y k."
+
+Equation_num_30_latex: "\begin{vmatrix}1&x_{1}&x^{2}_{1}&\cdots&x^{n-1}_{1}"
+Equation_num_30_text_0: "The determinant of the matrix with the first row as 1, x sub 1, x sub 1 squared, and so on up to x sub 1 to the power of n minus 1."
+Equation_num_30_text_1: "The determinant of the matrix containing the values 1, x sub 1, x sub 1 squared, and so on up to x sub 1 to the power of n minus 1 in its first row."
+Equation_num_30_text_2: "The determinant of the matrix formed by the first row consisting of 1, x sub 1, x sub 1 squared, and so on up to x sub 1 to the power of n minus 1."
+
+Equation_num_31_latex: "1&x_{2}&x^{2}_{2}&\cdots&x^{n-1}_{2}"
+Equation_num_31_text_0: "One, x sub 2, x squared sub 2, dot dot dot, x to the power of n minus 1 sub 2."
+Equation_num_31_text_1: "One, x two, x squared two, and so on, up to x to the power of n minus 1 two."
+Equation_num_31_text_2: "One, x sub 2, x squared sub 2, and so forth, up to x to the power of n minus 1 sub 2."
+
+Equation_num_32_latex: "\vdots&\vdots&\vdots&\ddots&\vdots"
+Equation_num_32_text_0: "Dot dot dot, dot dot dot, dot dot dot, dot dot dot, dot dot dot."
+Equation_num_32_text_1: "Continuing pattern of dots, continuing pattern of dots, continuing pattern of dots, continuing pattern of dots, continuing pattern of dots."
+Equation_num_32_text_2: "Dots in a vertical line, dots in a vertical line, dots in a vertical line, dots in a diagonal line, dots in a vertical line."
+
+Equation_num_33_latex: "1&x_{n}&x^{2}_{n}&\cdots&x_{n}^{n-1}\end{vmatrix}=\prod_{1\leq j<k\leq n}(x_{k}-x_{j})"
+Equation_num_33_text_0: "The determinant of the matrix with elements 1, x sub n, x sub n squared, and so on up to x sub n to the power of n minus 1, is equal to the product of all the differences between x sub k and x sub j, where j is less than k."
+Equation_num_33_text_1: "The determinant of a matrix containing a sequence of powers of x sub n is equal to the product of all the differences between pairs of x sub k and x sub j, where j is less than k."
+Equation_num_33_text_2: "The determinant of a matrix formed by a series of powers of x sub n is equal to the product of all the differences between x sub k and x sub j, where j is smaller than k."
+
+Equation_num_34_latex: "\begin{vmatrix}a_{1}&a_{2}&\cdots&a_{n}"
+Equation_num_34_text_0: "The absolute value of the determinant of a matrix with elements a sub 1, a sub 2, dot dot dot, a sub n."
+Equation_num_34_text_1: "The absolute value of the determinant of a matrix containing elements a one, a two, and so on up to a n."
+Equation_num_34_text_2: "The absolute value of the determinant of a matrix represented by a sub 1, a sub 2, and so forth, up to a sub n."
+
+Equation_num_35_latex: "a_{n}&a_{1}&\cdots&a_{n-1}"
+Equation_num_35_text_0: "a sub n, a sub 1, dot dot dot, a sub n minus 1"
+Equation_num_35_text_1: "a n, a 1, dot dot dot, a n minus 1"
+Equation_num_35_text_2: "a n, a 1, and so on, up to a n minus 1"
+
+Equation_num_36_latex: "\vdots&\vdots&\ddots&\vdots"
+Equation_num_36_text_0: "Dot dot dot, dot dot dot, dot dot dot, dot dot dot."
+Equation_num_36_text_1: "Continuing pattern of dots, continuing pattern of dots, continuing pattern of dots, continuing pattern of dots."
+Equation_num_36_text_2: "Dots in a vertical line, dots in a vertical line, dots in a diagonal line, dots in a vertical line."
+
+Equation_num_37_latex: "\det[t_{jk}]=\prod_{1\leq j<k\leq n}(x_{j}-x_{k})\prod_{2\leq j\leq k\leq n}(b_{j}-a_{k})"
+Equation_num_37_text_0: "The determinant of t sub jk is equal to the product of x sub j minus x sub k, for all j less than k and less than or equal to n, multiplied by the product of b sub j minus a sub k, for all j greater than or equal to 2 and less than or equal to n."
+Equation_num_37_text_1: "To find the determinant of t sub jk, we multiply together the differences between x sub j and x sub k, where j is less than k and less than or equal to n. Then, we multiply this by the differences between b sub j and a sub k, where j is greater than or equal to 2 and less than or equal to n."
+Equation_num_37_text_2: "The formula for calculating the determinant of t sub jk involves multiplying the terms (x sub j minus x sub k) for all j less than k and less than or equal to n, and then multiplying this by the terms (b sub j minus a sub k) for all j greater than or equal to 2 and less than or equal to n."
+
+Equation_num_38_latex: "D_{n}[a_{j,k}]=\begin{vmatrix}a_{-n,-n}&a_{-n,-n+1}&\dots&a_{-n,n}"
+Equation_num_38_text_0: "D sub n of a sub j, k equals the determinant of a matrix with elements a sub negative n, negative n, a sub negative n, negative n plus 1, and so on up to a sub negative n, n."
+Equation_num_38_text_1: "D sub n of a sub j, k is the determinant of a matrix containing elements a sub negative n, negative n, a sub negative n, negative n plus 1, and so on up to a sub negative n, n."
+Equation_num_38_text_2: "The value of D sub n for a sub j, k is obtained by calculating the determinant of a matrix formed by the elements a sub negative n, negative n, a sub negative n, negative n plus 1, and so on up to a sub negative n, n."
+
+Equation_num_39_latex: "a_{-n+1,-n}&a_{-n+1,-n+1}&\dots&a_{-n+1,n}"
+Equation_num_39_text_0: "a sub negative n plus 1, negative n and a sub negative n plus 1, negative n plus 1, dot dot dot, a sub negative n plus 1, n."
+Equation_num_39_text_1: "a negative n plus 1, negative n and a negative n plus 1, negative n plus 1, and so on until a negative n plus 1, n."
+Equation_num_39_text_2: "a with a subscript negative n plus 1, negative n and a with a subscript negative n plus 1, negative n plus 1, and so on until a with a subscript negative n plus 1, n."
+
+Equation_num_40_latex: "\vdots&\vdots&\ddots&\vdots"
+Equation_num_40_text_0: "Dot dot dot, dot dot dot, dot dot dot, dot dot dot."
+Equation_num_40_text_1: "Continuing pattern of dots, continuing pattern of dots, continuing pattern of dots, continuing pattern of dots."
+Equation_num_40_text_2: "Dots in a vertical line, dots in a vertical line, dots in a diagonal line, dots in a vertical line."
+
+Equation_num_41_latex: "a_{n,-n}&a_{n,-n+1}&\dots&a_{n,n}\end{vmatrix}"
+Equation_num_41_text_0: "The determinant of the matrix with elements a sub n, negative n to a sub n, n."
+Equation_num_41_text_1: "The determinant of the matrix containing elements a sub n, negative n to a sub n, n."
+Equation_num_41_text_2: "The determinant of the matrix with entries a sub n, negative n to a sub n, n."
+
+Equation_num_42_latex: "\sum^{\infty}_{j,k=-\infty}|a_{j,k}-\delta_{j,k}"
+Equation_num_42_text_0: "The sum from negative infinity to positive infinity of the absolute value of a sub j,k minus delta sub j,k."
+Equation_num_42_text_1: "The sum of the absolute difference between a sub j,k and delta sub j,k, as j and k range from negative infinity to positive infinity."
+Equation_num_42_text_2: "The sum of the absolute values of the terms a sub j,k minus delta sub j,k, where j and k go from negative infinity to positive infinity."
+
+Equation_num_43_latex: "f(c+)\equiv\lim_{x\to c+}f(x)=f(c)"
+Equation_num_43_text_0: "The formula is f of c plus is equivalent to the limit as x approaches c from the right of f of x, which is equal to f of c."
+Equation_num_43_text_1: "The formula reads as f of c plus is the same as the limit of f of x as x approaches c from the right, and this is equal to f of c."
+Equation_num_43_text_2: "We have f of c plus equals the limit of f of x as x approaches c from the right, and this is equal to f of c."
+
+Equation_num_44_latex: "|f(c+\alpha)-f(c)|<\epsilon"
+Equation_num_44_text_0: "The absolute difference between f of c plus alpha and f of c is less than epsilon."
+Equation_num_44_text_1: "The absolute value of the difference between f of c plus alpha and f of c is smaller than epsilon."
+Equation_num_44_text_2: "The magnitude of the discrepancy between f of c plus alpha and f of c is smaller than epsilon."
+
+Equation_num_45_latex: "f(c-)\equiv\lim_{x\to c-}f(x)=f(c)"
+Equation_num_45_text_0: "The formula is f of c minus is equivalent to the limit as x approaches c from the left of f of x, which is equal to f of c."
+Equation_num_45_text_1: "We have f of c minus equals the limit as x approaches c from the left of f of x, and this is equal to f of c."
+Equation_num_45_text_2: "The formula states that f of c minus is the same as the limit of f of x as x approaches c from the left, and this limit is equal to f of c."
+
+Equation_num_46_latex: "f^{\prime}(x)=\frac{\mathrm{d}f}{\mathrm{d}x}=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}"
+Equation_num_46_text_0: "The derivative of f with respect to x is equal to the limit as h approaches zero of the difference quotient f of x plus h minus f of x, all divided by h."
+Equation_num_46_text_1: "The derivative of f with respect to x is the limit of the change in f over the change in x, as the change in x approaches zero."
+Equation_num_46_text_2: "To find the derivative of f with respect to x, we take the limit of the difference quotient f of x plus h minus f of x, divided by h, as h approaches zero."
+
+Equation_num_47_latex: "(f+g)^{\prime}(x)=f^{\prime}(x)+g^{\prime}(x)"
+Equation_num_47_text_0: "The derivative of f plus g, with respect to x, is equal to the derivative of f with respect to x, plus the derivative of g with respect to x."
+Equation_num_47_text_1: "The derivative of the sum of f and g, with respect to x, equals the derivative of f with respect to x, plus the derivative of g with respect to x."
+Equation_num_47_text_2: "To find the derivative of f plus g with respect to x, simply add the derivatives of f and g with respect to x."
+
+Equation_num_48_latex: "(fg)^{\prime}(x)=f^{\prime}(x)g(x)+f(x)g^{\prime}(x)"
+Equation_num_48_text_0: "The derivative of f times g, with respect to x, is equal to the derivative of f times g, plus f times the derivative of g."
+Equation_num_48_text_1: "The derivative of f times g, with respect to x, equals the derivative of f times g, plus f times the derivative of g."
+Equation_num_48_text_2: "To find the derivative of f times g with respect to x, we add the derivative of f times g to f times the derivative of g."
+
+Equation_num_49_latex: "\left(\frac{f}{g}\right)^{\prime}(x)=\frac{f^{\prime}(x)g(x)-f(x)g^{\prime}(x)}{(g(x))^{2}}"
+Equation_num_49_text_0: "The derivative of f divided by g, all raised to the power of prime, with respect to x, is equal to the numerator, which is f prime times g, minus f times g prime, divided by the denominator, which is g squared."
+Equation_num_49_text_1: "The derivative of f divided by g prime, with respect to x, is equal to f prime times g, minus f times g prime, all divided by g squared."
+Equation_num_49_text_2: "To find the derivative of f divided by g, with respect to x, we subtract the product of f prime and g from the product of f and g prime, and then divide the result by g squared."
+
+Equation_num_50_latex: "f^{(n)}=f^{(n)}(x)=\frac{\mathrm{d}}{\mathrm{d}x}f^{(n-1)}(x)"
+Equation_num_50_text_0: "The nth derivative of f, denoted as f to the power of n, is equal to the derivative of the (n-1)th derivative of f with respect to x."
+Equation_num_50_text_1: "To find the nth derivative of f, which is represented as f to the power of n, we take the derivative of the (n-1)th derivative of f with respect to x."
+Equation_num_50_text_2: "The formula states that the nth derivative of f, written as f to the power of n, is obtained by differentiating the (n-1)th derivative of f with respect to x."
+
+Equation_num_51_latex: "f(b)-f(a)=(b-a)f^{\prime}(c)"
+Equation_num_51_text_0: "The difference between the values of f at b and f at a is equal to the difference between b and a, multiplied by the derivative of f at c."
+Equation_num_51_text_1: "The change in f from a to b is equal to the difference between b and a, multiplied by the derivative of f at c."
+Equation_num_51_text_2: "The gap between f at b and f at a is the same as the gap between b and a, times the derivative of f at c."
+
+Equation_num_52_latex: "\lim\limits_{x\to a}f(x)=\lim\limits_{x\to a}g(x)=0\;\;\mbox{(or $\infty$)}"
+Equation_num_52_text_0: "The limit of f of x as x approaches a is equal to the limit of g of x as x approaches a, and both of them are zero or infinity."
+Equation_num_52_text_1: "As x approaches a, both f of x and g of x tend to zero or infinity."
+Equation_num_52_text_2: "When x gets closer to a, f of x and g of x both approach zero or infinity."
+
+Equation_num_53_latex: "\lim_{x\to a}\frac{f(x)}{g(x)}=\lim_{x\to a}\frac{f^{\prime}(x)}{g^{\prime}(x)"
+Equation_num_53_text_0: "The limit as x approaches a of f of x divided by g of x is equal to the limit as x approaches a of f prime of x divided by g prime of x."
+Equation_num_53_text_1: "The limit of f of x over g of x as x approaches a is equal to the limit of f prime of x over g prime of x as x approaches a."
+Equation_num_53_text_2: "As x approaches a, the ratio of f of x to g of x approaches the ratio of f prime of x to g prime of x."
+
+Equation_num_54_latex: "\int x^{n}\,\mathrm{d}x=\begin{cases}\dfrac{x^{n+1}}{n+1}+C,&\quad n\not=-1,"
+Equation_num_54_text_0: "The integral of x to the power of n, with respect to x, equals x to the power of n plus one, divided by n plus one, plus C, if n is not equal to negative one."
+Equation_num_54_text_1: "The integral of x to the power of n, with respect to x, is x to the power of n plus one, divided by n plus one, plus C, when n is not negative one."
+Equation_num_54_text_2: "When integrating x to the power of n with respect to x, the result is x to the power of n plus one, divided by n plus one, plus C, unless n is negative one."
+
+Equation_num_55_latex: "\ln\left|x\right|+C,&\quad n=-1.\end{cases"
+Equation_num_55_text_0: "The natural logarithm of the absolute value of x, plus C, when n is equal to negative one."
+Equation_num_55_text_1: "The ln of the absolute value of x, plus C, when n equals negative one."
+Equation_num_55_text_2: "ln of the absolute value of x, plus C, for n equals negative one."
+
+Equation_num_56_latex: "\int^{b}_{a}f(x)\,\mathrm{d}x=\lim\sum^{n-1}_{j=0}f(\xi_{j})(x_{j+1}-x_{j}"
+Equation_num_56_text_0: "The integral from a to b of f of x, dx, is equal to the limit as n approaches infinity of the sum from j equals 0 to n minus 1 of f of xi sub j times the difference between x sub j plus 1 and x sub j."
+Equation_num_56_text_1: "The integral of f of x from a to b is the limit of the sum of f of xi sub j times the difference between x sub j plus 1 and x sub j, as n approaches infinity."
+Equation_num_56_text_2: "To find the integral of f of x from a to b, we take the limit of a sum. The sum involves multiplying f of xi sub j by the difference between x sub j plus 1 and x sub j, as j goes from 0 to n minus 1, and n approaches infinity."
+
+Equation_num_57_latex: "\int^{b}_{a}f(x)\,\mathrm{d}x=-\int^{a}_{b}f(x)\,\mathrm{d}x"
+Equation_num_57_text_0: "The integral from a to b of f of x, dx, is equal to the negative integral from b to a of f of x, dx."
+Equation_num_57_text_1: "The integral of f of x from a to b is the negative integral of f of x from b to a."
+Equation_num_57_text_2: "The integral of f of x, dx, from a to b is the same as the negative integral of f of x, dx, from b to a."
+
+Equation_num_58_latex: "\int^{\infty}_{a}f(x)\,\mathrm{d}x=\lim_{b\to\infty}\int^{b}_{a}f(x)\,\mathrm{d}x"
+Equation_num_58_text_0: "The integral from a to infinity of f of x, dx, is equal to the limit as b approaches infinity of the integral from a to b of f of x, dx."
+Equation_num_58_text_1: "The integral from a to infinity of f of x, dx, equals the limit as b goes to infinity of the integral from a to b of f of x, dx."
+Equation_num_58_text_2: "The integral from a to infinity of f of x, dx, is the same as the limit of the integral from a to b of f of x, dx, as b gets larger and larger."
+
+Equation_num_59_latex: "\int^{b}_{a}f(x)\,\mathrm{d}x=\lim_{c\to b-}\int^{c}_{a}f(x)\,\mathrm{d}x"
+Equation_num_59_text_0: "The integral from a to b of f of x, dx, is equal to the limit as c approaches b from the left of the integral from a to c of f of x, dx."
+Equation_num_59_text_1: "The integral of f of x from a to b is the same as the limit of the integral of f of x from a to c, as c gets closer to b from the left."
+Equation_num_59_text_2: "To find the integral of f of x from a to b, we take the limit of the integral of f of x from a to c as c approaches b from the left."
+
+Equation_num_60_latex: "\int^{b}_{a}f(x)\,\mathrm{d}x=F(b)-F(a)"
+Equation_num_60_text_0: "The integral from a to b of f of x, with respect to x, is equal to the difference between F of b and F of a."
+Equation_num_60_text_1: "The integral of f of x from a to b, with respect to x, is F of b minus F of a."
+Equation_num_60_text_2: "The integral of f of x, from a to b, is F of b minus F of a."
+
+Equation_num_61_latex: "\frac{\mathrm{d}}{\mathrm{d}x}\int^{x}_{a}f(t)\,\mathrm{d}t=f(x)"
+Equation_num_61_text_0: "The derivative of the integral from a to x of f of t with respect to t is equal to f of x."
+Equation_num_61_text_1: "The rate of change of the area under the curve of f from a to x with respect to x is equal to f of x."
+Equation_num_61_text_2: "The slope of the integral of f from a to x with respect to x is equal to f of x."
+
+Equation_num_62_latex: "\int^{b}_{a}f(\phi(x))\phi^{\prime}(x)\,\mathrm{d}x=\int^{\phi(b)}_{\phi(a)}f(t)\,\mathrm{d}t"
+Equation_num_62_text_0: "The integral from a to b of f of phi of x, times phi prime of x, dx, is equal to the integral from phi of a to phi of b of f of t, dt."
+Equation_num_62_text_1: "The integral of f of phi of x, times phi prime of x, with respect to x from a to b, is equal to the integral of f of t with respect to t from phi of a to phi of b."
+Equation_num_62_text_2: "The integral of f of phi of x, times the derivative of phi of x, with respect to x from a to b, is equal to the integral of f of t with respect to t from phi of a to phi of b."
+
+Equation_num_63_latex: "\int^{b}_{a}f(x)\phi(x)\,\mathrm{d}x=f(c)\int^{b}_{a}\phi(x)\,\mathrm{d}x"
+Equation_num_63_text_0: "The integral from a to b of f of x times phi of x, dx, is equal to f of c times the integral from a to b of phi of x, dx."
+Equation_num_63_text_1: "The integral of f of x times phi of x, from a to b, is equal to f of c times the integral of phi of x, from a to b."
+Equation_num_63_text_2: "When you integrate f of x times phi of x from a to b, you get f of c times the integral of phi of x from a to b."
+
+Equation_num_64_latex: "\|f\|^{2}_{2}\equiv\int^{b}_{a}|f(x)|^{2}\,\mathrm{d}x<\infty"
+Equation_num_64_text_0: "The norm of f squared, subscript 2, is equal to the integral from a to b of the absolute value of f of x squared, dx, which is less than infinity."
+Equation_num_64_text_1: "The square of the norm of f, subscript 2, is the integral from a to b of the absolute value of f of x squared, dx, and it's finite."
+Equation_num_64_text_2: "The norm of f squared, subscript 2, is the integral from a to b of the absolute value of f of x squared, dx, and it's a finite value."
+
+Equation_num_65_latex: "\mathcal{V}_{a,b}\left(f\right)=\sup\sum^{n}_{j=1}|f(x_{j})-f(x_{j-1})|"
+Equation_num_65_text_0: "V sub a, b of f equals the supremum of the sum from j equals 1 to n of the absolute value of f of x sub j minus f of x sub j minus 1."
+Equation_num_65_text_1: "V a, b of f is the highest value obtained by adding up the absolute differences between f evaluated at each x sub j and f evaluated at the previous x sub j, from j equals 1 to n."
+Equation_num_65_text_2: "The V function with inputs a, b and f is defined as the largest possible sum of the absolute differences between consecutive evaluations of f at x sub j, where j ranges from 1 to n."
+
+Equation_num_66_latex: "\mathcal{V}_{a,b}\left(f\right)=\int^{b}_{a}\left|f^{\prime}(x)\right|\,\mathrm{d}x"
+Equation_num_66_text_0: "V sub a comma b of f equals the integral from a to b of the absolute value of f prime of x, dx."
+Equation_num_66_text_1: "V a b of f equals the integral of the absolute value of f prime of x from a to b, dx."
+Equation_num_66_text_2: "The V function with limits a and b, applied to f, is equal to the integral of the absolute value of the derivative of f with respect to x, from a to b."
+
+Equation_num_67_latex: "f(x)=\sum^{n}_{k=0}\frac{f^{(k)}(a)}{k!}(x-a)^{k}+R_{n}"
+Equation_num_67_text_0: "The function f of x equals the sum from k equals zero to n of f to the k of a divided by k factorial, multiplied by x minus a raised to the power of k, plus R sub n."
+Equation_num_67_text_1: "f of x equals the sum of f prime of a divided by k factorial, times x minus a raised to the power of k, from k equals zero to n, plus R sub n."
+Equation_num_67_text_2: "The formula for f of x is the sum of f to the k of a divided by k factorial, multiplied by x minus a raised to the power of k, from k equals zero to n, plus R sub n."
+
+Equation_num_68_latex: "R_{n}=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}"
+Equation_num_68_text_0: "R sub n equals f prime to the power of n plus one of c, divided by n plus one factorial, times x minus a to the power of n plus one."
+Equation_num_68_text_1: "R sub n equals f prime of n plus one evaluated at c, divided by n plus one factorial, times x minus a raised to the power of n plus one."
+Equation_num_68_text_2: "R sub n equals the derivative of f raised to the power of n plus one, evaluated at c, divided by the factorial of n plus one, multiplied by x minus a raised to the power of n plus one."
+
+Equation_num_69_latex: "R_{n}=\frac{1}{n!}\int^{x}_{a}(x-t)^{n}f^{(n+1)}(t)\,\mathrm{d}t"
+Equation_num_69_text_0: "R sub n equals one over n factorial times the integral from a to x of the quantity x minus t raised to the power of n, multiplied by the (n+1)th derivative of f with respect to t, dt."
+Equation_num_69_text_1: "R sub n equals one over n factorial times the integral from a to x of (x minus t) to the power of n, multiplied by the (n+1)th derivative of f with respect to t, dt."
+Equation_num_69_text_2: "R sub n equals one over n factorial times the integral from a to x of x minus t raised to the power of n, multiplied by the (n+1)th derivative of f with respect to t, dt."
+
+Equation_num_70_latex: "f((1-t)c+td)\leq(1-t)f(c)+tf(d"
+Equation_num_70_text_0: "Eff of one minus tee sea plus tee dee is less than or equal to one minus tee eff of sea plus tee eff of dee."
+Equation_num_70_text_1: "Eff of one minus tee sea plus tee dee is less than or equal to one minus tee times eff of sea plus tee times eff of dee."
+Equation_num_70_text_2: "The function of one minus tee sea plus tee dee is less than or equal to one minus tee times the function of sea plus tee times the function of dee."
+
+Equation_num_71_latex: "\lim_{(x,y)\to(a,b)}f(x,y)=f(a,b)"
+Equation_num_71_text_0: "The limit of f of x and y as x and y approach a and b is equal to f of a and b."
+Equation_num_71_text_1: "As x and y approach a and b, the limit of f of x and y is f of a and b."
+Equation_num_71_text_2: "When x and y get closer to a and b, the limit of f of x and y equals f of a and b."
+
+Equation_num_72_latex: "|f(a+\alpha,b+\beta)-f(a,b)|<\epsilon"
+Equation_num_72_text_0: "The absolute difference between f of a plus alpha, b plus beta and f of a, b is less than epsilon."
+Equation_num_72_text_1: "The absolute value of the difference between f of a plus alpha, b plus beta and f of a, b is smaller than epsilon."
+Equation_num_72_text_2: "The magnitude of the discrepancy between f of a plus alpha, b plus beta and f of a, b is less than epsilon."
+
+Equation_num_73_latex: "\frac{\partial f}{\partial x}=D_{x}f=f_{x}=\lim_{h\to 0}\frac{f(x+h,y)-f(x,y)}{h}"
+Equation_num_73_text_0: "The partial derivative of f with respect to x is equal to the limit as h approaches zero of the difference quotient of f evaluated at x plus h, y minus f evaluated at x, y divided by h."
+Equation_num_73_text_1: "The derivative of f with respect to x is the limit of the change in f over the change in x as the change in x approaches zero."
+Equation_num_73_text_2: "To find the rate of change of f with respect to x, we take the limit of the difference in f values at x plus h, y and x, y divided by h as h gets infinitely small."
+
+Equation_num_74_latex: "\frac{\partial f}{\partial y}=D_{y}f=f_{y}=\lim_{h\to 0}\frac{f(x,y+h)-f(x,y)}{h}"
+Equation_num_74_text_0: "The partial derivative of f with respect to y is equal to the limit as h approaches zero of the difference between f of x, y plus h and f of x, y, divided by h."
+Equation_num_74_text_1: "The derivative of f with respect to y is the limit of the change in f of x, y plus a small amount h, minus f of x, y, divided by h as h approaches zero."
+Equation_num_74_text_2: "To find the rate of change of f with respect to y, we take the limit of the difference between f of x, y plus a small increment h and f of x, y, divided by h as h approaches zero."
+
+Equation_num_75_latex: "H\leq G\leq A"
+Equation_num_75_text_0: "H is less than or equal to G, and G is less than or equal to A."
+Equation_num_75_text_1: "H is smaller than or equal to G, and G is smaller than or equal to A."
+Equation_num_75_text_2: "H is at most G, and G is at most A."
+
+Equation_num_76_latex: "\min(a_{1},a_{2},\dots,a_{n})\leq M(r)\leq\max(a_{1},a_{2},\dots,a_{n})"
+Equation_num_76_text_0: "The minimum of a sub one, a sub two, dot dot dot, a sub n, is less than or equal to M of r, which is less than or equal to the maximum of a sub one, a sub two, dot dot dot, a sub n."
+Equation_num_76_text_1: "The smallest value among a sub one, a sub two, dot dot dot, a sub n, is less than or equal to M of r, which is less than or equal to the largest value among a sub one, a sub two, dot dot dot, a sub n."
+Equation_num_76_text_2: "The lowest number in the set a sub one, a sub two, dot dot dot, a sub n, is less than or equal to M of r, which is less than or equal to the highest number in the set a sub one, a sub two, dot dot dot, a sub n."
+
+Equation_num_77_latex: "M(r)\leq M(s)"
+Equation_num_77_text_0: "M of r is less than or equal to M of s."
+Equation_num_77_text_1: "The value of M for r is smaller than or equal to the value of M for s."
+Equation_num_77_text_2: "M evaluated at r is less than or equal to M evaluated at s."
+
+Equation_num_78_latex: "\phi\left(\int^{1}_{0}f(x)\,\mathrm{d}x\right)\leq\int^{1}_{0}\phi(f(x))\,\mathrm{d}x"
+Equation_num_78_text_0: "Phi of the integral from 0 to 1 of f of x dx is less than or equal to the integral from 0 to 1 of phi of f of x dx."
+Equation_num_78_text_1: "The value of phi applied to the integral of f of x from 0 to 1 is less than or equal to the integral of phi applied to f of x from 0 to 1."
+Equation_num_78_text_2: "When we take the integral of f of x from 0 to 1 and apply phi to it, the result is less than or equal to the integral of phi applied to f of x from 0 to 1."
+
+Equation_num_79_latex: "\exp\left(\int^{1}_{0}\ln\left(f(x)\right)\,\mathrm{d}x\right)<\int^{1}_{0}f(x)\,\mathrm{d}x"
+Equation_num_79_text_0: "E to the power of the integral from 0 to 1 of the natural logarithm of f of x dx is less than the integral from 0 to 1 of f of x dx."
+Equation_num_79_text_1: "Exponential of the integral from 0 to 1 of the natural logarithm of f of x dx is smaller than the integral from 0 to 1 of f of x dx."
+Equation_num_79_text_2: "The exponential of the integral from 0 to 1 of the natural logarithm of f of x dx is less than the integral from 0 to 1 of f of x dx."
+
+Equation_num_80_latex: "f(x)=\tfrac{1}{2}a_{0}+\sum^{\infty}_{n=1}(a_{n}\cos\left(nx\right)+b_{n}\sin\left(nx\right))"
+Equation_num_80_text_0: "The function f of x equals one-half times a sub-zero, plus the sum from n equals one to infinity of a sub-n times the cosine of nx, plus b sub-n times the sine of nx."
+Equation_num_80_text_1: "The formula for f of x is one-half times a sub-zero, plus the sum of a sub-n times the cosine of nx, and b sub-n times the sine of nx, where n ranges from one to infinity."
+Equation_num_80_text_2: "In this equation, f of x is equal to one-half times a sub-zero, plus the sum of a sub-n times the cosine of nx, and b sub-n times the sine of nx, where n starts from one and goes to infinity."
+
+Equation_num_81_latex: "z=x+iy"
+Equation_num_81_text_0: "Z equals x plus iy."
+Equation_num_81_text_1: "Z is equal to x plus iy."
+Equation_num_81_text_2: "Z equals x plus iy."
+
+Equation_num_82_latex: "f(z)=\sum^{\infty}_{n=0}\frac{f^{(n)}(z_{0})}{n!}(z-z_{0})^{n}"
+Equation_num_82_text_0: "The function f of z equals the sum from n equals zero to infinity of f prime of n of z sub zero divided by n factorial, times z minus z sub zero raised to the power of n."
+Equation_num_82_text_1: "f of z equals the sum of f prime of n of z sub zero divided by n factorial, times z minus z sub zero raised to the power of n, where n ranges from zero to infinity."
+Equation_num_82_text_2: "The formula for f of z is the sum of f prime of n of z sub zero divided by n factorial, times z minus z sub zero raised to the power of n, where n starts from zero and goes to infinity."
+
+Equation_num_83_latex: "e^{z}=1+\frac{z}{1!}+\frac{z^{2}}{2!}+\cdots"
+Equation_num_83_text_0: "e to the power of z equals one plus z over one factorial plus z squared over two factorial plus dot dot dot."
+Equation_num_83_text_1: "The exponential function of z is equal to one plus z divided by one factorial plus z squared divided by two factorial plus so on."
+Equation_num_83_text_2: "The formula for e raised to the power of z is one plus z over one factorial plus z squared over two factorial and so on."
+
+Equation_num_84_latex: "\ln\left(1+z\right)=z-\frac{z^{2}}{2}+\frac{z^{3}}{3}-\cdots"
+Equation_num_84_text_0: "The natural logarithm of one plus z equals z minus z squared over two plus z cubed over three, and so on."
+Equation_num_84_text_1: "The logarithm of one plus z, written as ln(1+z), can be approximated by z minus z squared over two plus z cubed over three, and so on."
+Equation_num_84_text_2: "To find the natural logarithm of one plus z, we can use the series expansion: z minus z squared over two plus z cubed over three, and so on."
+
+Equation_num_85_latex: "f(\overline{z})=\overline{f(z)}"
+Equation_num_85_text_0: "The function f of z-bar equals the complex conjugate of f of z."
+Equation_num_85_text_1: "f of z-bar is equal to the conjugate of f of z."
+Equation_num_85_text_2: "The function f of z-bar is the mirror image of f of z."
+
+Equation_num_86_latex: "f(z)=\sum^{\infty}_{n=-\infty}a_{n}(z-z_{0})^{n}"
+Equation_num_86_text_0: "The function f of z is equal to the sum from negative infinity to infinity of a sub n times the quantity z minus z sub 0 raised to the power of n."
+Equation_num_86_text_1: "The formula for f of z is the sum of a sub n times the quantity z minus z sub 0 raised to the power of n, where n ranges from negative infinity to infinity."
+Equation_num_86_text_2: "We have the function f of z represented by the sum of a sub n times the quantity z minus z sub 0 raised to the power of n, where n ranges from negative infinity to infinity."
+
+Equation_num_87_latex: "a_{n}=\frac{1}{2\pi i}\int_{|z-z_{0}|=r}\frac{f(z)}{(z-z_{0})^{n+1}}\,\mathrm{d}z"
+Equation_num_87_text_0: "a sub n equals one over two pi i times the integral along the circle with radius r centered at z sub zero of f of z divided by the quantity z minus z sub zero raised to the power of n plus one, d z."
+Equation_num_87_text_1: "a sub n equals one over two pi i times the integral of f of z divided by z minus z sub zero raised to the power of n plus one, taken along a circle with radius r centered at z sub zero."
+Equation_num_87_text_2: "To find a sub n, we take the integral of f of z divided by z minus z sub zero raised to the power of n plus one, along a circle with radius r centered at z sub zero. Then, we multiply the result by one over two pi i."
+
+Equation_num_88_latex: "\frac{1}{2\pi i}\int_{C}f(z)\,\mathrm{d}z=\mbox{sum of the residues of $f(z)$ within $C$}"
+Equation_num_88_text_0: "One over two pi i, integral over C of f of z, d z, equals sum of the residues of f of z within C."
+Equation_num_88_text_1: "One over two pi i, integral over C of f of z, d z, is equal to the sum of the residues of f of z within C."
+Equation_num_88_text_2: "The result of one over two pi i, integral over C of f of z, d z, is the sum of the residues of f of z within C."
+
+Equation_num_89_latex: "|f(z)|\leq\frac{M|z|}{R}\;\mbox{ and }\;|f^{\prime}(0)|\leq\frac{M}{R}"
+Equation_num_89_text_0: "The absolute value of f of z is less than or equal to M times the absolute value of z divided by R, and the absolute value of f prime of 0 is less than or equal to M divided by R."
+Equation_num_89_text_1: "The magnitude of f of z is at most M times the magnitude of z divided by R, and the magnitude of f prime of 0 is at most M divided by R."
+Equation_num_89_text_2: "The absolute value of f of z is bounded by M times the absolute value of z divided by R, and the absolute value of f prime of 0 is bounded by M divided by R."
+
+Equation_num_90_latex: ""
+Equation_num_90_text_0: "F equals M times A."
+Equation_num_90_text_1: "Force equals mass multiplied by acceleration."
+Equation_num_90_text_2: "The formula is F equals M times A."
+
+Equation_num_91_latex: "g(F(w))=g(z_{0})+\sum^{\infty}_{n=1}G_{n}(w-w_{0})^{n}"
+Equation_num_91_text_0: "g of F of w equals g of z sub zero plus the sum from n equals 1 to infinity of G sub n times the quantity w minus w sub zero raised to the power of n."
+Equation_num_91_text_1: "The function g of F of w is equal to g of z sub zero plus the sum of G sub n times the quantity w minus w sub zero raised to the power of n, where n ranges from 1 to infinity."
+Equation_num_91_text_2: "We have g of F of w equals g of z sub zero plus the sum of G sub n times the quantity w minus w sub zero raised to the power of n, where n starts from 1 and goes to infinity."
+
+Equation_num_92_latex: "f(z)=f(z_{0})+\sum^{\infty}_{n=0}f_{n}(z-z_{0})^{\mu+n}"
+Equation_num_92_text_0: "Eff of z equals eff of z sub zero plus the sum from n equals zero to infinity of eff sub n times open parenthesis z minus z sub zero close parenthesis raised to the power of mu plus n."
+Equation_num_92_text_1: "Eff of z equals eff of z sub zero plus the sum of eff sub n times open parenthesis z minus z sub zero close parenthesis raised to the power of mu plus n, as n goes from zero to infinity."
+Equation_num_92_text_2: "The function f of z is equal to f of z sub zero plus the sum of f sub n times open parenthesis z minus z sub zero close parenthesis raised to the power of mu plus n, where n ranges from zero to infinity."
+
+Equation_num_93_latex: "g(F(w))=g(z_{0})+\sum^{\infty}_{n=1}G_{n}(w-w_{0})^{n/\mu}"
+Equation_num_93_text_0: "g of F of w equals g of z sub zero plus the sum from n equals 1 to infinity of G sub n times the quantity w minus w sub zero raised to the power of n divided by mu."
+Equation_num_93_text_1: "g of F of w equals g of z sub zero plus the sum of G sub n times the quantity w minus w sub zero raised to the power of n divided by mu, where n ranges from 1 to infinity."
+Equation_num_93_text_2: "The function g of F of w is equal to g of z sub zero plus the sum of G sub n times the quantity w minus w sub zero raised to the power of n divided by mu, where n starts from 1 and goes to infinity."
+
+Equation_num_94_latex: "F(z)=\int^{b}_{a}f(z,t)\,\mathrm{d}"
+Equation_num_94_text_0: "F of z equals the integral from a to b of f of z comma t, d t."
+Equation_num_94_text_1: "F of z equals the integral of f of z with respect to t, evaluated from a to b."
+Equation_num_94_text_2: "F of z is the integral of f of z with respect to t, ranging from a to b."
+
+Equation_num_95_latex: "|\ln\left(1+a_{n}(z)\right)|\leq M_{n}"
+Equation_num_95_text_0: "The natural logarithm of one plus a sub n of z is less than or equal to M sub n."
+Equation_num_95_text_1: "The absolute value of the natural logarithm of one plus a sub n of z is not greater than M sub n."
+Equation_num_95_text_2: "The logarithm of one plus a sub n of z, absolute value, is bounded by M sub n."
+
+Equation_num_96_latex: "\sum^{\infty}_{n=1}M_{n}<\infty"
+Equation_num_96_text_0: "The sum from n equals 1 to infinity of M sub n is less than infinity."
+Equation_num_96_text_1: "The infinite sum of M sub n, where n starts from 1, is finite."
+Equation_num_96_text_2: "The sum of M sub n, as n goes from 1 to infinity, is not infinite."
+
+Equation_num_97_latex: "P(z)=\prod^{\infty}_{n=1}\left(1-\frac{z}{z_{n}}\right)e^{z/z_{n}"
+Equation_num_97_text_0: "P of z equals the product from n equals 1 to infinity of one minus z over z sub n, times e to the power of z over z sub n."
+Equation_num_97_text_1: "P of z equals the product of one minus z over z sub n, for all n from 1 to infinity, multiplied by e to the power of z over z sub n."
+Equation_num_97_text_2: "P of z is the result of multiplying one minus z over z sub n, for every n starting from 1 and going up to infinity, and then multiplying it by e to the power of z over z sub n."
+
+Equation_num_98_latex: "F(z)=\prod^{\infty}_{n=1}a_{n}(z)"
+Equation_num_98_text_0: "F of z equals the product from n equals 1 to infinity of a sub n times z."
+Equation_num_98_text_1: "F of z equals the infinite product of a sub n times z, where n starts from 1."
+Equation_num_98_text_2: "F of z is the result of multiplying a sub n with z, as n ranges from 1 to infinity."
+
+Equation_num_99_latex: "\frac{F^{\prime}(z)}{F(z)}=\sum^{\infty}_{n=1}\frac{a_{n}^{\prime}(z)}{a_{n}(z)}"
+Equation_num_99_text_0: "F prime of z divided by F of z equals the sum from n equals 1 to infinity of a prime sub n of z divided by a sub n of z."
+Equation_num_99_text_1: "The ratio of F prime of z to F of z is equal to the sum of a prime sub n of z divided by a sub n of z, where n ranges from 1 to infinity."
+Equation_num_99_text_2: "To find the ratio of the derivative of F with respect to z to F itself, we sum the ratios of the derivatives of a sub n with respect to z to a sub n, as n goes from 1 to infinity."
+
+Equation_num_100_latex: "f(z)=\sum^{\infty}_{n=1}a_{n}\left(\frac{1}{z-z_{n}}+\frac{1}{z_{n}}\right"
+Equation_num_100_text_0: "The function f of z is equal to the sum from n equals 1 to infinity of a sub n times the quantity one over z minus z sub n plus one over z sub n."
+Equation_num_100_text_1: "The formula for f of z is the sum of a sub n times one over z minus z sub n plus one over z sub n, where n ranges from 1 to infinity."
+Equation_num_100_text_2: "We have the function f of z represented by the infinite sum of a sub n times the expression one over z minus z sub n plus one over z sub n, with n starting from 1 and going to infinity."
+
+Equation_num_101_latex: "f(z)=a_{n}z^{n}+a_{n-1}z^{n-1}+\dots+a_{0}"
+Equation_num_101_text_0: "The function f of z equals a sub n times z to the power of n, plus a sub n minus 1 times z to the power of n minus 1, and so on, up to a sub 0."
+Equation_num_101_text_1: "The formula for f of z is a sub n times z to the power of n, plus a sub n minus 1 times z to the power of n minus 1, and so on, up to a sub 0."
+Equation_num_101_text_2: "In this equation, f of z is equal to the sum of a sub n times z to the power of n, a sub n minus 1 times z to the power of n minus 1, and so on, up to a sub 0."
+
+Equation_num_102_latex: "f(z)=(z-\alpha)(b_{n}z^{n-1}+b_{n-1}z^{n-2}+\dots+b_{1})+b_{0}"
+Equation_num_102_text_0: "The function f of z is equal to the quantity z minus alpha, multiplied by the sum of b sub n times z to the power of n minus 1, plus b sub n minus 1 times z to the power of n minus 2, and so on, all the way up to b sub 1. Then we add b sub 0."
+Equation_num_102_text_1: "The formula for f of z is given by z minus alpha, multiplied by the sum of b sub n times z to the power of n minus 1, plus b sub n minus 1 times z to the power of n minus 2, and so on, up to b sub 1. Finally, we add b sub 0."
+Equation_num_102_text_2: "To calculate f of z, we take z minus alpha and multiply it by the sum of b sub n times z to the power of n minus 1, plus b sub n minus 1 times z to the power of n minus 2, and so on, up to b sub 1. Then we add b sub 0."
+
+Equation_num_103_latex: "b_{k}=\alpha b_{k+1}+a_{k}"
+Equation_num_103_text_0: "b sub k equals alpha times b sub k plus 1 plus a sub k."
+Equation_num_103_text_1: "b k equals alpha times b k plus 1 plus a k."
+Equation_num_103_text_2: "b k equals alpha b k plus 1 plus a k."
+
+Equation_num_104_latex: "f(\alpha)=b_{0}"
+Equation_num_104_text_0: "Eff of alpha equals bee sub zero."
+Equation_num_104_text_1: "Function of alpha equals b sub zero."
+Equation_num_104_text_2: "F of alpha equals b naught."
+
+Equation_num_105_latex: "c_{k}=\alpha c_{k+1}+b_{k}"
+Equation_num_105_text_0: "C sub k equals alpha times C sub k plus 1 plus B sub k."
+Equation_num_105_text_1: "C k equals alpha times C k plus 1 plus B k."
+Equation_num_105_text_2: "C k equals alpha C k plus 1 plus B k."
+
+Equation_num_106_latex: "f^{\prime}(\alpha)=c_{1}"
+Equation_num_106_text_0: "The derivative of f with respect to alpha is equal to c sub 1."
+Equation_num_106_text_1: "The rate of change of f with respect to alpha is c sub 1."
+Equation_num_106_text_2: "The slope of the function f at alpha is c sub 1."
+
+Equation_num_107_latex: "f(z)=g(z)q(z)+r(z)"
+Equation_num_107_text_0: "Eff of z equals gee of z times cue of z plus are of z."
+Equation_num_107_text_1: "Function of z equals g of z multiplied by q of z plus r of z."
+Equation_num_107_text_2: "The value of f at z is equal to the value of g at z times the value of q at z, plus the value of r at z."
+
+Equation_num_108_latex: "\cfracstyle{d}b_{0}+\cfrac{a_{1}}{b_{1}+\cfrac{a_{2}}{b_{2}+\raisebox{-6.0pt}{$\ddots$}}"
+Equation_num_108_text_0: "dee divided by bee sub zero, plus a one divided by bee sub one, plus a two divided by bee sub two, and so on."
+Equation_num_108_text_1: "dee over bee sub zero, plus a one over bee sub one, plus a two over bee sub two, and so on."
+Equation_num_108_text_2: "dee over bee zero, plus a one over bee one, plus a two over bee two, and so on."
+
+Equation_num_109_latex: "b_{0}+\cfrac{a_{1}}{b_{1}+\cfrac{a_{2}}{b_{2}+}}\cdots"
+Equation_num_109_text_0: "b sub zero plus a sub one divided by b sub one plus a sub two divided by b sub two, and so on."
+Equation_num_109_text_1: "b zero plus a one over b one plus a two over b two, and so on."
+Equation_num_109_text_2: "b naught plus a one over b one plus a two over b two, and so on."
+
