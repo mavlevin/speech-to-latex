@@ -73,10 +73,18 @@ def baseline_predict_one(audio_file_path):
 
 def baseline_predict(audiodb):
     preds = {}
+    i = 0
     for tag, value in tqdm(audiodb.items()):
         if value["type"] == "text":
             # want to predict
+            i += 1
+            
             preds[tag] = baseline_predict_one(value["audio_path"])
+
+            if i == 25:
+                print("STOPPING EARLY FOR SPEED; remove if needed")
+                break
+
     return preds    
 
 def read_audiodb(audio_folder_path):
