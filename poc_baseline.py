@@ -4,8 +4,8 @@ from pathlib import Path
 from openai import OpenAI
 import json
 from tqdm import tqdm
-from latex2sympy2 import latex2sympy
 from sympy import simplify
+from latex2sympy2 import latex2sympy
 
 client = OpenAI()
 
@@ -63,6 +63,7 @@ def score_semantic_similarity(latex1, latex2):
         # Simplify expressions to their canonical forms
         simplified_expr1 = simplify(sympy_expr1)
         simplified_expr2 = simplify(sympy_expr2)
+        print(f"expr1: {simplified_expr1}, expr2: {simplified_expr2}")
         
         # Check if the simplified expressions are equivalent
         if simplified_expr1.equals(simplified_expr2):
@@ -82,12 +83,12 @@ def score_latex_similarity(audiodb, predictions):
         score = score_semantic_similarity(real, latex_prediction)
         if score is not None:  # Ensure score is computed
             score_data[label] = {"score": score, "real": real, "pred": latex_prediction}
+            print(f"score: {score}, real: {real}, pred: {latex_prediction}")
             right += score
         else:
             print(f"Error comparing {label}: Skipping.")
-
-    # Ensure division by the number of comparisons actually made
-    return right / len([s for s in score_data.values() if s["score"] is not None]), score_data
+    print(f"right:",{right})
+    return right / (len([s for s in score_data.values() if s["score"] is not None]) + 0.000001), score_data
 
 
 def baseline_predict_one(audio_file_path):
