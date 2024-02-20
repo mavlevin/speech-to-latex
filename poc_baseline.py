@@ -4,6 +4,8 @@ from pathlib import Path
 from openai import OpenAI
 import json
 from tqdm import tqdm
+from latex2sympy2 import latex2sympy
+from sympy import simplify
 
 client = OpenAI()
 
@@ -52,19 +54,41 @@ def text_tag_to_latex_tag(text_tag):
     del(s[4])
     return "_".join(s)
 
+def score_semantic_similarity(latex1, latex2):
+    try:
+        # Convert LaTeX to SymPy expressions
+        sympy_expr1 = latex2sympy(latex1)
+        sympy_expr2 = latex2sympy(latex2)
+        
+        # Simplify expressions to their canonical forms
+        simplified_expr1 = simplify(sympy_expr1)
+        simplified_expr2 = simplify(sympy_expr2)
+        
+        # Check if the simplified expressions are equivalent
+        if simplified_expr1.equals(simplified_expr2):
+            return 1  # Expressions are equivalent
+        else:
+            return 0  # Expressions are not equivalent
+    except Exception as e:
+        print(f"An error occurred while comparing expressions: {e}")
+        return None
+    
 def score_latex_similarity(audiodb, predictions):
     right = 0
     score_data = {}
 
     for label, latex_prediction in predictions.items():
         real = audiodb[text_tag_to_latex_tag(label)]["data"]
-        score = score_one_latex_similarity(real, latex_prediction)
-        score_data[label] = {"score": score, "real": real, "pred": latex_prediction}
-        right += score
+        score = score_semantic_similarity(real, latex_prediction)
+        if score is not None:  # Ensure score is computed
+            score_data[label] = {"score": score, "real": real, "pred": latex_prediction}
+            right += score
+        else:
+            print(f"Error comparing {label}: Skipping.")
 
-    return right / len(predictions), score_data
+    # Ensure division by the number of comparisons actually made
+    return right / len([s for s in score_data.values() if s["score"] is not None]), score_data
 
-    
 
 def baseline_predict_one(audio_file_path):
     text = speech_to_text(audio_file_path)
